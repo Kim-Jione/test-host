@@ -1,82 +1,79 @@
 /* 스타일을 정의하는 CSS 파일 */
+/* styles.css */
 
 /* 네비게이션바 스타일 */
-nav {
+header nav {
     background-color: #333;
     color: #fff;
     padding: 10px;
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline-block;
     margin-right: 10px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     background-color: #555;
 }
 
-/* 바디 스타일 */
-.container {
-    display: flex;
-}
-
-aside {
+/* 사이드바 스타일 */
+#sidebar {
     background-color: #f0f0f0;
     padding: 20px;
     min-width: 200px;
 }
 
-aside h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+#sidebar h2 {
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
-aside ul {
+#sidebar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-aside ul li {
+#sidebar ul li {
     margin-bottom: 5px;
 }
 
-aside ul li a {
+#sidebar ul li a {
     text-decoration: none;
     color: #333;
 }
 
-main {
+/* 콘텐츠 스타일 */
+#content {
     padding: 20px;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
